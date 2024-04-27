@@ -35,6 +35,9 @@ label {
   display: block;
   margin: 1rem 0;
 }
+legend {
+  color: #8d8d8d;
+}
 input, textarea, select {
   margin: 10px 0 0 0;
   width: 100%;
