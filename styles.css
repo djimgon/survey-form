@@ -34,9 +34,16 @@ fieldset {
 label {
   display: block;
   margin: 1rem 0;
+  color: #cbcbcb;
 }
 legend {
-  color: #8d8d8d;
+  color: #00dddd;
+  padding: 0 1.5rem;
+}
+.required{
+  vertical-align: sub;
+  color: red;
+  padding-top: 10px;
 }
 input, textarea, select {
   margin: 10px 0 0 0;
@@ -55,5 +62,5 @@ input {
 input, textarea {
   background-color: #464646;
   border: 1px solid #464646;
-  color: #ffffff;
+  color: #00dddd;
 }
