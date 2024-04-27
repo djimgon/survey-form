@@ -97,3 +97,13 @@ select {
 ::placeholder, select{
   color: #6e6e6e;
 }
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0.4rem;
+  vertical-align: middle;
+}
+.inline-block {
+  display: inline-block;
+  padding: 0 1rem;
+}
