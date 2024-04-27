@@ -17,6 +17,7 @@ header h1, p {
 }
 .desc {
   font-style: italic;
+  color: #d9d9d9;
 }
 form {
   width: 60vw;
@@ -28,10 +29,28 @@ form {
 fieldset {
   margin: 2.5rem 0;
   padding: 1.5rem;
+  border: 1px solid #464646;
 }
-
 label {
   display: block;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
-
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 4em;
+  font-size: 18px;
+}
+input {
+  position: relative;
+  padding: 0 1.5rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+input, textarea {
+  background-color: #464646;
+  border: 1px solid #464646;
+  color: #ffffff;
+}
