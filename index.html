@@ -21,17 +21,17 @@
     <form id="survey-form">
       <fieldset>
         <legend>Personal Info (required)</legend>
-        <label for="name-label">Enter Your Name
-          <input id="name-label" type="text" required/>
+        <label for="name-label">Your Name
+          <input id="name-label" type="text" placeholder="Enter Your Name" required/>
         </label>
-        <label for="name-email">Enter Your Email
-          <input id="name-email" type="email" pattern="[^@\s]+@[^@\s]+" required/>
+        <label for="name-email">Your Email
+          <input id="name-email" type="email" placeholder="Enter Your Email" pattern="[^@\s]+@[^@\s]+" required/>
         </label>
       </fieldset>
       <fieldset>
         <legend>Preferred Сar</legend>
-        <label for="name-mileage">Car Mileage:
-          <input id="name-mileage" type="number" min="1000" max="350000" required/>
+        <label for="name-mileage">Mileage:
+          <input id="name-mileage" type="number" placeholder="Enter Preferred Mileage" min="1000" max="350000" required/>
         </label>
       </fieldset>
       <input type="submit" value="Submit"/>
