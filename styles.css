@@ -61,6 +61,9 @@ input, select {
   box-sizing: border-box;
   outline: none;
 }
+textarea {
+  resize: none;
+}
 input, textarea {
   color: #00dddd;
 }
