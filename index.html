@@ -31,7 +31,8 @@
       <fieldset>
         <legend>Preferred Сar</legend>
         <label for="name-mileage">Mileage:
-          <input id="name-mileage" type="number" placeholder="Enter Preferred Mileage" min="1000" max="350000" required/>
+          <input id="name-mileage" type="number" placeholder="Enter Preferred Mileage" min="1000" max="350000"
+                 required/>
         </label>
       </fieldset>
       <fieldset>
@@ -48,14 +49,24 @@
       <fieldset>
         <legend>Car Class (required)</legend>
         <label for="class-a">
-          <input id="class-a" type="radio" name="car-class" class="inline" checked /> Class A
+          <input id="class-a" type="radio" name="car-class" class="inline" checked/> Class A
         </label>
         <label for="class-b">
-          <input id="class-b" type="radio" name="car-class" class="inline" /> Class B
+          <input id="class-b" type="radio" name="car-class" class="inline"/> Class B
         </label>
         <label for="class-с">
-          <input id="class-с" type="radio" name="car-class" class="inline" /> Class С
+          <input id="class-с" type="radio" name="car-class" class="inline"/> Class С
         </label>
+      </fieldset>
+      <fieldset>
+        <legend>Car Brand</legend>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Audi</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">BMW</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Honda</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Ford</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Toyota</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Tesla</label>
+        <label><input name="prefer" value="prefer-autos" type="checkbox" class="input-checkbox">Kia</label>
       </fieldset>
       <input type="submit" value="Submit"/>
     </form>
