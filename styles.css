@@ -18,3 +18,20 @@ header h1, p {
 .desc {
   font-style: italic;
 }
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
