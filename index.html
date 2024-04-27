@@ -10,12 +10,16 @@
 <body>
 <header>
   <div class="container">
-    <h1>Survey Form For FreeCodeCamp</h1>
-    <p class="desc" id="description">
-      #1 - Certification Project - Used Сar Search Form
-    </p>
+    <div class="top-header">
+      <img class="header-avatar" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Survey Form For FreeCodeCamp">
+      <h1>Survey Form For FreeCodeCamp</h1>
+      <p class="desc" id="description">
+        #1 - Certification Project - Used Сar Search Form
+      </p>
+    </div>
   </div>
 </header>
+<hr>
 <main>
   <div class="container">
     <form id="survey-form">
@@ -37,14 +41,14 @@
       </fieldset>
       <fieldset>
         <legend>Fuel Type:</legend>
-          <label class="fuel-type">
-            <select class="custom-select" id="fuel-type" name="fuel-type">
-              <option value="">Select One</option>
-              <option value="1">Hybrid</option>
-              <option value="2">Gasoline</option>
-              <option value="2">Electric</option>
-            </select>
-          </label>
+        <label class="fuel-type">
+          <select class="custom-select" id="fuel-type" name="fuel-type">
+            <option value="">Select One</option>
+            <option value="1">Hybrid</option>
+            <option value="2">Gasoline</option>
+            <option value="2">Electric</option>
+          </select>
+        </label>
       </fieldset>
       <fieldset>
         <legend>Car Class (<span class="required">*</span>)</legend>
@@ -60,13 +64,18 @@
       </fieldset>
       <fieldset>
         <legend>Car Brand</legend>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Audi</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">BMW</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Honda</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Ford</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Toyota</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Tesla</label>
-        <label class="inline-block" ><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Kia</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox"
+                                           class="inline">Audi</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox" class="inline">BMW</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox"
+                                           class="inline">Honda</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox"
+                                           class="inline">Ford</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox"
+                                           class="inline">Toyota</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox"
+                                           class="inline">Tesla</label>
+        <label class="inline-block"><input name="prefer" value="prefer-autos" type="checkbox" class="inline">Kia</label>
       </fieldset>
       <fieldset>
         <legend>Additional Info</legend>
