@@ -34,6 +34,8 @@ fieldset {
 label {
   display: block;
   margin: 1rem 0;
+}
+label {
   color: #cbcbcb;
 }
 legend {
@@ -51,7 +53,7 @@ input, textarea, select {
   min-height: 4em;
   font-size: 18px;
 }
-input {
+input, select {
   position: relative;
   padding: 0 1.5rem;
   -webkit-box-sizing: border-box;
@@ -60,7 +62,39 @@ input {
   outline: none;
 }
 input, textarea {
+  color: #00dddd;
+}
+input, textarea, select {
   background-color: #464646;
   border: 1px solid #464646;
-  color: #00dddd;
+}
+select {
+  background-color: #464646;
+  border: 1px solid #464646;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.fuel-type select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.fuel-type {
+  position: relative;
+}
+.fuel-type:before {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  content: ' ';
+  margin-top: -5px;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: red transparent transparent transparent;
+  z-index: 2;
+  pointer-events: none;
+}
+::placeholder, select{
+  color: #6e6e6e;
 }
