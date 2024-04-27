@@ -110,3 +110,6 @@ select {
   display: inline-block;
   padding: 0 1rem;
 }
+.terms-and-conditions a {
+  color: red;
+}
