@@ -24,7 +24,7 @@ header h1, p {
 }
 form {
   width: 60vw;
-  max-width: 600px;
+  max-width: 750px;
   min-width: 300px;
   margin: 3rem auto;
   padding-bottom: 2em;
